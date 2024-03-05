@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 style="text-align: center;color:tomato;">PCs</h1>
+    <div style="background-color: aquamarine;color:#a52a2a;padding: 30px;text-align: center;margin:10px;">
+    Marca Do pc: <input  type="text" id="txtmarca"/>
+    Placa De Video: <input  type="text" id="txtplaca"/>
+    Processador: <input  type="text" id="txtprocess"/>
+    <button type="button" id="btnAdd">ADD</button> 
+    </div>
+    <hr/>
+    <div id="divPC" style="font-size:200%;color:chocolate;text-shadow: #a52a2a;margin:15px">
+        Nenhum PC adicionado
+    </div>
+    <div id="navegacao" style="margin:15px">
+        Exibindo <span id="spanAtual">0</span> de <span id="spanTotal">0</span> PCs. 
+    </div>
+
+
+
+    <div style="background-color:blueviolet;color:bisque;padding: 30px;text-align: center;margin:10px;">
+        <button type="button" id="btnPrimeiro">Primeiro</button>
+       <button type="button" id="btnAnterior">Anterior</button> 
+       <button type="button" id="btnProximo">Próximo</button>
+       <button type="button" id="btnUltimo">Último</button>
+       <button type="button" id="btnOrdenar">Ordenar</button>
+       <br/>     <br/>
+       <button type="button" id="btnRemoverPrimeiro">Remover Primeiro</button>
+       <button type="button" id="btnRemoverUltimo">Remover Último</button> 
+        <button type="button" id="btnRemoverAtual">Remover Atual</button>
+        
+        </div>
+        <script src="js/pcs.js"></script>
+        <script src="js/index.js"></script>
+</body>
+</html>
